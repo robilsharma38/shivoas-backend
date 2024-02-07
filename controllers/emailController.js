@@ -19,7 +19,7 @@ async function sendEmail(req, res) {
   // Create email message options
   const mailOptions = {
     from: 'info@shivoas.com', // Sender address
-    to: userEmail, // Recipient(s)
+    to: 'robil.sharma38@gmail.com', // Recipient(s)
     subject: subject, // Subject line
     phoneNumber: phoneNumber, // Phone Number
     text: message // Plain text body
